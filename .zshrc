@@ -43,3 +43,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit; promptinit
 prompt pure
+
+export PATH=$PATH:$HOME/go/bin
+export GOPATH=$HOME/go
